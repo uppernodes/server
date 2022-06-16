@@ -1,0 +1,36 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sudo nodemon --experimental-modules --es-module-specifier-resolution=node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1152.0",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "csurf": "^1.11.0",
+    "dotenv": "^16.0.1",
+    "email-validator": "^2.0.4",
+    "express": "^4.17.2",
+    "express-formidable": "^1.2.0",
+    "express-jwt": "^7.7.5",
+    "formidable": "^2.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.6",
+    "mongoose-paginate-v2": "^1.6.3",
+    "multer": "^1.4.5-lts.1",
+    "nanoid": "^4.0.0",
+    "query-string": "^7.1.1",
+    "sharp": "^0.30.6",
+    "slugify": "^1.6.5",
+    "stripe": "^9.6.0",
+    "uuid": "^8.3.2"
+  }
+}
